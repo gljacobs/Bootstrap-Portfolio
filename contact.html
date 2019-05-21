@@ -36,24 +36,34 @@
 
   <div id="main-container" class="container">
     <section class="main-section">
-      <h1>Contact</h1>
+      <div class="row">
+        <h1 class="col-md-12">Contact</h1>
+      </div>
 
       <form id="contact-form">
         <ul>
-          <li>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
-          </li>
-          <li>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-          </li>
-          <li>
-            <label for="message">Message</label>
-            <textarea id="message" name="message" required="required"></textarea>
-          </li>
+          <div class="row">
+            <li class="col-md-12">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+            </li>
+          </div>
+          <div class="row">
+            <li class="col-md-12">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+            </li>
+          </div>
+          <div class="row">
+            <li class="col-md-12">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required="required"></textarea>
+            </li>
+          </div>
         </ul>
-        <input type="submit">
+        <div class="row">
+          <input class="col-md-2" type="submit">
+        </div>
       </form>
 
     </section>
